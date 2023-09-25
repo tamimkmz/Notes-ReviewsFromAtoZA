@@ -1,0 +1,168 @@
+Variables:
+    Are like boxes/containers which can hold data for us. we can change the data
+    later on if we want. we can reuse the same variable as many times as we
+    want. There are 8 basic/primitive data types.
+4 basic data types to store whole numbers.
+    1)byte 2) short 3) int 4) long
+2 basic data types to store decimal numbers.
+    1)float 2) double
+    1 data type
+To store characters:
+    char
+To Store true/false
+    boolean
+NonPrimitives:
+1)String
+===================================================================
+Type Casting:
+    Type casting is converting data from one datatype to another datatype.
+    For example we can convert an integer to float or other way around.
+    There are two types of type casting. Type casting only works with primitive
+    data types.
+    1) Implicit/Auto/widening
+    2) explicit/Manual/narrowing
+Example
+    int number=(int)10.5
+=====================================================
+if statements
+    if statements are part of the conditional constructs in java. They help us
+    write code that can be executed based on a condition.
+    There are many variation of if statements 1)if 2) if-else 3) else-if
+    4) Nested if
+Why we need conditional statements?
+    Without the if statements programs will always generate same output
+    not matter what.
+Syntax:
+    if(Condition){
+    something that we want to execute if condition is true
+    }else{
+     something that we want to execute if condition is false
+    }
+
+Note:
+1)Whenever it is possible to write code with else-if and multiple if conditions
+always go with else-if statements.
+2) With primitive datatype we can use > < == != etc.
+but with not primitives we have to use the equals method.
+Logical operators:
+    Logical operators help us combine multiple boolean values.
+    There are three main logical operators in java.
+    1) Not(!) 2) OR (||) AND (&&)
+1) NOT(!)
+ boolean cond=true;
+ sout"!cond"
+2)OR(||)
+    Logical OR help us combine
+   Nested Loops:
+       A nested loop is a loop inside another loop. Nested loops are used
+       to solve complex problems in which we have nested data or we need to perform
+       nested iterations. We can nest a for loop inside a while loop or a
+       for loop inside another for loop.
+   Why Nested Loops:
+       A tester we will be needing them to read excel data.
+       we will be needing them to go through multiple pages and from
+       each page we might want to go through multiple items.
+   Syntax:
+       for(int i=0;i<10;i++){
+        for(int j=0;j<10;j++){
+
+           }
+       }
+   Arrays:
+       Arrays help us store multiple objects of the same type in just one
+       variable. They are index based datastructures. Every item that we store
+       inside an array is assigned a number that number is called index. Whenever
+       we want to get any value from the array we provide that index.
+   Why we should use arrays:
+       We can use multiple variables as well to store multiple items but when the
+       data is large it almost impossible to handle the variables. imagine we have
+       store the names of all the persons living in a city.
+   Syntax:
+      There are two ways of creating an array.
+      1) DataType [] nameOfArray={element1,element2,element3}
+      int [] ages={25,32,29,45}
+      2) DataType [] nameOfArray= new DataType[Size]
+      int [] ages=new int[5]
+      ages[0]=25;
+      ages[1]=32;
+      ages[1]=50;
+      ages[1]=40;
+      ages[1]=18;
+
+ What is Object oriented programming(OOP)
+     Its simply a way of writing code. some rules that we follow. there are other ways
+     as well like functional programming,procedural programming. There are four main
+     pillars of OOP 1)inheritance 2) Polymorphism 3) Abstraction 4) Encapsulation.
+ Why should we learn OOP:
+     1) Code re-usability.
+     2) Its easier to write large amounts of code.
+     3) sharing code with others become easier.
+     4) Security of the code is increased.
+     5) Changing code becomes easier.
+ Object:
+     An Object is something that we can physically touch. Everything around us like
+     chairs, tables, computer etc. They are all objects. We can easily represent
+     these objects inside our computers by telling a computer how an object
+     looks like and how it behaves.
+
+ Class:
+     A class is like a design/map/blueprint that we use to create objects.
+ String class:
+     A String class is used to store and manipulate text based data. Most of the
+     information inside computers is processed in this form. String is most widely
+     used class in all java.
+ Creating objects from String class.
+ Note:
+ Class is a blue print and plan for building a house.
+ new create new obj
+ Note:
+ PolyMorphism:
+     Its the ability of an object to behave differently. We
+     can achieve polymorphism in two ways one is methodOverloading and other is
+     methodOverriding(Very Common).
+
+ Why Should we learn about PolyMorphism?
+     1) It allows us to write dynamic programs. Which can saves us a lot of
+     code repetition.
+
+
+ Example
+     Webdriver webdriver=new ChromeDriver();
+     ChromeDriver chromeDriver=new ChromeDriver();
+ Interview Questions:
+     Do we need MethodOverriding for polymorphism?
+     Yes but we can also do this using methodOverloading.
+ Abstraction:
+     Abstraction is the process of hiding implementation details
+     and showing only the functionality. We can achieve abstraction using abstract classes
+     and interfaces.
+
+ Why:
+     When we use Abstraction it simplifies our code. Those classes which don't
+     need to provide the implementation to the methods can leave it.
+ keywords:
+     abstract.
+ 1)Can we have private methods as abstract methods?
+     Private means no participation in inheritance which
+     means no overriding which will make abstract method useless.
+ 2) Can we have a method as final and abstract at the same time?
+     Final means something is complete and does not require any modification
+     and abstract means something is incomplete and requires modification.
+     These are opposite to each other and not allowed.
+ Interfaces:
+     Interfaces are collection of public static final variables and methods which are
+     by default public and abstract. After Java 8 we can have default, static and
+     private methods as well.
+ Why use interfaces?
+     1) There is no Diamond problem in interfaces which allow us to have multiple
+     inheritance.
+     2) They are light weight simple contracts and can be used even the classes are
+     not related to each other.
+ Interview Questions:
+     1)Can we have private methods as abstract methods?
+         Private means no participation in inheritance which
+         means no overriding which will make abstract method useless.
+     2) Can we have a method as final and abstract at the same time?
+         Final means something is complete and does not require any modification
+         and abstract means something is incomplete and requires modification.
+         These are opposite to each other and not allowed.

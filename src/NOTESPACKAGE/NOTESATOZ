@@ -1,0 +1,734 @@
+        What is Project in intellij?
+            A project in intellij is simply a folder where we will
+            be storing our files. This folder has some other folders inside it like
+            src folder.
+        Steps to create a package:
+        1) Right click on the src folder
+        2) click on new
+        3) package
+        4) give a name to the package
+
+        Steps to create java files:
+        1)Right click on package name
+        2) click on new
+        3) new java class
+        4) give name to our java class.
+
+        what is a class:
+            A class in java is where we write our code. if we want to execute the code
+            and want to see the output we must have a main method as well.
+        main method:
+            main method is the starting point. This is from where java starts the
+            execution of your program.
+        shortcuts:
+        main-> Creates the main  method
+        main hit enter button->  public static void main(String[] args) {
+
+
+            }
+        sout->System.out.println();
+        Rename-> right click-> refactor->rename
+        =============================
+        go to "bestbuy" store
+        and buy me an "Apple"
+        Note:
+        Whenever we have to print the value of a variable we should
+        not be using ""
+        >>>>>>> 6f21bd250199f510fdcb9043980ee77f57854882
+        If else statements:
+            If else statements help us write code that can take a decision based on a
+            value and can execute selective code. They work based on a boolean value.
+            Logical operators help combine multiple conditions on the same line in if
+                 statements. There are three types of logical operators NOT(!) OR(||)
+                 AND(&&).
+            NOT(!):
+                true=>false
+                false=>true
+            Why should we use NOT operator:
+                1) It can help us simplify the logic in some of the cases
+                2) Code readability will in increase.
+            OR(||):
+                Logical OR operator will help us combine multiple conditions in such a way
+                that as soon as one condition gets true the whole condition will be
+                evaluated to true.
+            true||false||true=>true
+            false||false||false=>false
+            true||true||true=>true
+            AND(&&)
+                Logical and Operator will help us combine the conditions in such a way
+                that it will only give us true if all the conditions are true.
+            true && false && true=>false
+            true && true && true=>true
+            true && true && false=>false
+            Operators:
+                Operators are symbol which perform an operation on data. There are many
+                different types of operators in java.
+            Arithmetic Operators:
+                These operators help us perform simple mathematical operations Like
+                Addition       => +   int a=10 int b=20 int c=a+b; =>30
+                Subtraction    => -
+                Multiplication => *
+                Division       => /
+                Modulus        => %
+            Shorthand Operators:
+                They help us perform Mathematical operations but using a little shorter
+                syntax.
+                add and update the variable  +=  int a=10 a+=20  => 30
+                subtract and update the variable  -=  int a=10 a-=20  => -10
+                Multiply and update the variable  *=  int a=10 a*=20  => 200
+                Divide and update the variable  /=  int a=10 a/=20  => 0
+                Modulus and update the variable  %=  int a=10 a%=20  => 200
+            Relational Operators
+                These operators help us compare things.
+                == checks if two objects are equal
+                != checks if two objects are Not equal
+                > Great than
+                < Less than
+                >= greater than equal
+                <= less than equal
+            Logical Operators:
+                They help us combine multiple boolean conditions.
+                ! Not
+                || OR
+                && AND
+            Increment/Decrement operators.
+                ++ this will help us increase the value of a variable by one
+                -- this will help us decrease the value of a variable by one
+            Note:
+            While loop checks the condition first then executes the code. Do while on the
+            other hand executes the code first and then checks the condition. Sometimes
+            when we write the logic using do while it becomes easier. There are no other
+            differences and reasons to use a do while instead of while.
+        NestedLoops:
+            A loop inside another loop. just like nested if statements. We can nest
+            any type of loop.
+        Why we do we need them?
+            To solve complex problems that requires accessing nested data.
+        Arrays:
+            Array is a datastructures that helps us store multiple items in a single
+            variable. We can use the indexes to access these values.
+            Arrays:
+                Arrays are datastructures that help us store large amounts of similar data.
+                Arrays use indexing to manipulate data inside them. Indexes always start from
+                zero.
+            Why should we use arrays?
+                Arrays help us store and manipulate large amounts of data
+                easily with the help of loops. Whenever we have more than 3 similar items that
+                we can to store and process together we should always go with arrays.
+            Syntax:
+                There are two ways of creating the arrays
+                Method1:
+                DataType[] nameOfTheArray={element1,element2,element3};
+                Method2:
+                DataType[] nameOfTheArray= new DataType[Size];
+
+            Enhanced For Loop:
+                Enhanced for loop is used to iterate through datastructures which have multiple
+                items stored inside them.
+            Why should we use Enhanced For Loop:
+                Its simple and easy to understand.
+            Syntax:
+                 for(DataTypeOfElement anyVariableName:NameOfTheDataStructure){
+
+                 }
+
+            Limitations of Enhanced For Loop:
+                1) Enhanced for loop can't be used for updating the elements.
+                2) Access the elements in the reverse order etc.
+            break:
+                break keyword is used in switch cases statements and with the loops
+                to terminate the loops prematurely.
+            Why we should use break keyword:
+                 using break keyword can help save a lot of processing time and our code can
+                 execute faster.
+            continue:
+                Continue keyword is used to skip the code from a loop once we hit the skip keyword
+                java ignores the rest of the code in the loop and jumps to the next iteration.
+                Object oriented programming:
+                    Its just a way(Set of rules) of writing code
+                    It basically helps us write large amounts of code. That is easier
+                    to change and manage. There are other ways like functional programming
+                    and procedural programming.
+                Why we should use OOP?
+                    1) It helps us write large amounts of code easily.
+                    2) It also helps us represent the world around us inside computers easily.
+                    3) Changing code becomes easier.
+                    4) Sharing code and collaboration becomes easier.
+                Main concepts/Main Pillars of OOP:
+                    1) Classes and Objects.(Base not considered main pillar)
+                    2) Inheritance.
+                    3) Polymorphism
+                    4) Abstraction
+                    5) Encapsulation.
+                Classes and Objects:
+                    A Class is like a map/blueprint/idea/design that we create before we
+                    start building the actual object. Classes have properties/attributes
+                    which help us figure out how something looks like and they
+                    have behaviours/functions which help us understand how something works.
+                             String class is designed to store symbols(letters(A,d,C), numbers(10,25),
+                            special characters(#,$,%)) in the form of a group. There are many methods
+                            already written by java developers that we can just use. This is the most widely
+                            used class in java.
+                            for example:
+                            length()
+                            startsWith()
+                            endsWith()
+                            contains()
+                        Why we should learn about this class.
+                            1) Very important for coding questions.
+                            2) Most widely used class in all java.
+                            3) Most of the information in real life is present in the form of Strings.
+
+                    Method Chaining:
+                        when multiple methods are being called on the same line its called method chaining.
+                        String class supports methods changing. for method changing to work previous method must
+                        return the the expected datatype for the next method.
+                        Example
+                         String str="   Batch 17 IS GREAT.    ";
+                                System.out.println(str.toLowerCase().trim().replace("great","Good"));
+                              //  System.out.println(str.toLowerCase().isEmpty().replace("great","Good"));
+
+                    Note:
+                     Very important for coding questions.
+                     1) If else
+                     2) Loops
+                     3) Arrays
+                     4) Strings
+                     Methods/Functions/Behaviours/routines
+                         methods are blocks of code that contains pre-written code that is executed.
+                         when we call a methods.
+                    String Class:
+            There are two main types of methods:
+             1) Methods which do not return any data(void type)
+           2) Methods which can return data like int double char etc.
+            Syntax:
+            datatype methodName (dataType nameOfParameter,dataType nameofOtherParam){
+          this is where we write the logic
+
+          return the results if method type is not void
+
+            }
+
+            int add(int num1,int num2){
+            int result=num1+num2;
+
+           return result;
+         }
+
+        int=> return type of method
+         add=>name of the method
+         (int num1,int num2) => parameters
+                         {              => Body of the method
+           int result=num1+num2;
+
+        return result;
+       }
+
+  Note:
+       WE will go over StringBuilder vs String
+    We will go over some of the homeworks as well
+        Note:
+        Types of variables:
+            There are three types of variables. local, instance and static.
+        local variables:
+            local variables are the variables which are created.declared inside a
+            block of code. like if else conditions,loop, switch statements, methods are
+            block of code.
+        Upside:
+            They occupy the memory for shortest period of time. As soon as java is done
+            executing that block of code they are removed from the memory.
+            The code that we write using local variables is very easy to debug.
+
+        downside:
+            They can only be accessed within the block of code they are created.
+
+        Instance variables:
+            Instance variables are the variables which are created outside of the
+            blocks( if else,switch,loops or methods etc.)of
+            code but inside a class.
+        Upside:
+            They can be accessed any where within the that class.
+        Downside:
+            They are created when an object of the class is created and they will stay in
+            the memory as long as that object is in the memory weather you use the or not.
+        Local vs instance:
+            Whenever it is possible go and create local variables. only go with instance
+            variables when you can't solve a problem with local variables.
+
+        static variables:
+            Static variables are created inside a class but outside of a block of code with
+            a static keyword.
+        UpSide:
+            They are universal when it comes to scope and accessibility. We don't
+            even need to create the object of that class in which they are created
+            we can simply write the name of the class and we can access it.
+
+        Downside:
+            Static variables occupy the memory for longest of all.
+            They are created even though you don't create any object of that
+            class.
+
+        Uses of types of local variables:
+            Local:
+                When ever we are solving any problem many times we need local variables
+                to temporally store data. In all of those cases you should be going with local
+                variables.
+
+
+
+        Note:
+            we will do a little bit of StringBuilder
+
+            one example for methods as well
+        Note:
+        Access modifiers:
+            Access modifiers are keywords in java that help us control
+            the access of instance and static variables they can also be used
+            to control the access of methods and classes. There are four access levels
+            and there are three keywords in java to apply these access levels.
+            private protected default public.
+            note:
+            Constructors:
+                Constructor help us build objects from classes easily. They help us give initial values to
+                the instance fields. The name of the constructor must be same as the class name.
+                Constructors don't have any return types. Most of the times constructors are public.
+                Other than initializing the values we can have whatever type of code inside the constructor that
+                we like for example calling methods writing if-else etc.
+
+            Class ClassName{
+            String name;
+
+            public ClassName(){
+
+            }
+
+            public ClassName(String myName){
+            name=myName;
+            }
+
+            }it helps us build objects from class easily
+             /We write constructors to build the objects
+             Static can not sued with constructors
+        Inheritance:
+             Inheritance allows one class to have all the properties and
+             methods from another class except private members and constructors.
+             We use extends keyword.
+        Why should we learn about Inheritance:
+            1) Faster development
+            2) Saves memory
+
+        Syntax:
+            class Parent{
+
+            }
+
+            class Child extends Parent{
+
+            }
+
+        Rules:
+            1) Private members(fields and methods) are not accessible in child classes.
+            2) Constructors are also no available for child classes directly.
+
+        Types of Inheritance:
+            1) Single
+            2) Hierarchical
+            3) MultiLevel
+            4) Hybrid
+            5) Multiple(It is not supported by java)
+        1)Single Inheritance:
+            Only one parent and only one child(Not very common).
+        2)Hierarchical:
+            One parent multiple child.
+
+        3)MultiLevel:
+            Multilevel inheritance happens when a class C inherits from B and B inherits from A.
+        4) Hybrid:
+            Hybrid is a mixture of Hierarchical and MultiLevel.
+        5)Multiple:
+                Multiple parent classes and one child class.
+        What is Diamond problem in OOP?
+             The ambiguity that arises when two classes B and C inherit from A, and a further class D
+             inherits from both B and C, so that if there is a method in A that B and/or C has overridden,
+             and D does not override it, it is unclear which version of the method D should inherit.
+        Method Overloading:
+
+                   Method overloading happens when multiple methods with same name but with
+                   different parameters.
+                   1) Different number of parameters for example min(2,3) min(4,5,6)
+                   2) Different datatype of methods  print("Java") ,print(12);
+                   3) Different sequence/order of parameters print("Java",12), print(12,"Java")
+               Why should we learn about method overloading:
+                   1)Cleaner code
+                   2) We don't need to come up with different method names
+
+               Syntax:
+                   class Calculator{
+
+                   int add(int a,int b){
+                   return a+b;
+                   }
+
+                   int add(int a,int b,int c){
+                       return a+b+c;
+                       }
+
+                    double add(double a,double b){
+                       return a+b;
+                       }
+
+                       long add(long a,long b){
+                               return a+b;
+                               }
+
+                   }
+               MethodOverriding:
+                   MethodOverriding happens when same name method is present in parent as well as
+                   in child class.
+
+               Note:
+                   Signature of a method:
+                       method name plus its parameters are called signature of a method.
+                   Header of a method:
+                       Header of a method includes signature plus return type plus access modifier.
+
+               Topics to revise for Selenium.
+
+                   1)Classes and Objects
+                   2)Methods
+                   3)String methods
+                   4)loops
+                   5)if-else
+               Approach:
+                   1)Read slides if something is not clear watch short videos from youtube
+                   for that specific topic
+                   2) Solve your HW/Repls again.
+
+         MethodOverriding:
+             When we have exact same methods in parent and child class. We call it
+             method Overriding.
+         Why should we learn about Overriding:
+             Method Overriding gives us a lot flexibility for example if we don't like
+             a method from the parent class we can override it/change.
+
+         Syntax:
+             class Parent{
+
+             void eat(){
+             sout "Fish"
+             }
+             }
+            class Child extends Parent{
+
+            void eat(){
+            sout "Chicken"
+            }
+            }
+            note:
+            Abstraction:
+                Abstraction is the process of hiding implementation details
+                and showing only
+                the functionality to the end user. We use the abstract keyword with methods
+                to avoid the implementation details.
+            Why should we use Abstraction?
+                1) Flexibility(if we don't know or don't want to provide the implementation
+                we can skip it).
+            Rules:
+               1) we can't create the objects of the abstract classes.
+               2) All the child classes must provide the implementation to the abstract
+               methods which are coming form parent or mark the child class also abstract.
+               3) An Abstract class can have full body methods as well as abstract method.
+               4) we can have instance or static fields in a an abstract class.
+               5) Constructors are also allowed.
+                   Interface:
+                     Interfaces are like contracts. In which we define abstract methods
+                       which the classes have to implement. They can also have public static
+                       final variables.
+                   Why should we learn about interfaces?
+                       1)Specially designed for abstraction.
+                       2) Light weight as compared to abstract classes.
+                       3) we can achieve multiple inheritance in interfaces.
+                       4) There is no Diamond problem when having multiple inheritance.
+                       5) Help us build things in a modular way can be used with classes
+                       even if they are not closely related.
+                   Rules:
+                       1) Interfaces don't have instance methods but can have static methods.
+                       2) No instance fields are allowed all fields inside an interface are
+                       public static final.
+                       3) No constructors are allowed.
+                       4) Can't create Objects as there are no constructs.
+                       5) Can't have final keyword with interface or method as they are by default
+                       abstract.
+                       6) We can have multiple inheritance as there is no Diamond problem.
+                       7) We can implements keyword when we have to implement an interface.
+               Note:
+        Note:
+        Encapsulation:
+            It is one of the four fundamental OOP concepts. It says Create classes to write code and store data.
+            use private access modifiers to secure the data by limiting the access. Create getter setter methods
+            for every field if you want others to change or see those fields.
+        Why should we learn about Encapsulation?
+            It improves the control over the data that we store in the fields of a class
+            which leads us to more secure code.
+        Collections framework:
+            Collections framework in java contains a lot of classes and interfaces.
+            Which help us store and manipulate large amounts of data easily and
+            efficiently.
+
+        Why Collections framework:
+            Arrays have limitations
+            1) They are fixed in size meaning once we provide the size we can't
+            change it afterwards.
+            2) They don't have any built-in methods to help us process the data.
+            Note:
+            Collection Framework:
+             Collections Framework:
+                 Its a collection of class and interfaces which help us build dynamic
+                 programs which are capable of handling large amounts of data.
+             Why should we learn about Collections Framework?
+                 Arrays are not good and we need something that is dynamic and
+                 more flexible For example.
+                 1) They are fixed in size
+                 2) No ready made methods we have to create our own.
+
+             ArrayList:
+                 Better version of Arrays. It is also index based. Its dynamic we don't
+                 need to provide the size before hand and it contains a lot of methods
+                 to manipulate the data inside it.
+             Syntax:
+                 For Arrays we used this syntax
+                 DataType[] nameForArray= new Datatype [Size]
+                 String [] arr=new String[5];
+                 ArrayList<DataType> nameForArrayList=new ArrayList<>();
+                 ArrayList<String> arrayList=new ArrayList<>();
+             Methods From ArrayList:
+                 Size()=> No Of elements.
+                 add(Element)=> adds new element to the arrayList
+                 get(Index)=> Returns the element on specified index.
+                 remove(index) => removes the element on the specified index
+                 remove(Element) => removes the element from the arrayList
+                 indexOf(element) => Returns the index of the element.
+                 Contains(Element) => returns true if element is present otherwise false
+             Wrapper Classes:
+                 They are special classes designed for primitive data types.
+                 for Every primitive datatype we have a class these classes are called
+                 wrapper classes.
+                 byte=>Byte
+                 short=>Short
+                 int => Integer
+                 long =>Long
+                 float => Float
+                 double=>Double
+                 char=> Character
+                 boolean => Boolean
+             Why Wrapper Classes?
+                 1)Because primitives are not supported by collections framework.
+                 2) A class can have methods inside it which is not possible for a primitive.
+                Note:
+                Types of variables:
+                    With respect to scope there are three types of variables. Local, instance and static.
+                Local Variables:
+                    Variables which are declared inside a block of code are called local variables.
+                    For example all the variables that we declare inside if-else statements,Loop, Switch
+                    case statement, Methods and Constructors.
+                UpSide:
+                    They occupy the memory for shortest period of time as soon as the block of code is
+                    done executing they are removed from the memory.
+                DownSide:
+                    They can only be used inside the block they are created.
+                When should we use Local Variables:
+                    Always go for local variables if possible.
+                Instance Variables:
+                    The variables which are declared inside a class but outside of any
+                    block of code are called instance variables.
+                Upside:
+                    They can be accessed inside any instance method or constructor.
+                Downside:
+                    Occupy the memory for longer than local variables.
+                    Can't be accessed inside the static methods.
+                    here is why:
+                    static methods are not tied to any specific instance;
+                    they belong to the class and have class-level scope and lifetime.
+                    When you call a static method, there may not even be an instance of
+                    the class in existence. Therefore, static methods have no direct
+                    access to instance-specific data.
+                When should we go with Instance variables/field/properties/attributes:
+                    1)When we want to share something across all instance methods
+                    2) When we are planning to create multiple objects from that class
+                    and every object might have a different value for a variable.
+                Static variables:
+
+                    Instance variables with a static keyword are called static variables.
+                Upside:
+                    They have the widest scope can be accessed anywhere if combined with
+                    proper access modifier. They can be accessed anywhere in a project.
+                DownSide:
+                    They can store one value at a time. if any one changes that value from anywhere
+                    it will get changed everywhere.
+                    They stay in the memory for longest.
+                When to use Static variables:
+                    whenever we want to share something across all methods and other classes
+                    we should go with static variables. 90% of the time they are final and
+                    public as well so that everyone can use them but no one can modify them.
+
+                Static methods:
+
+                    Methods which are declared with static keyword are called static methods.
+                Upside:
+                    They can be used by just writing the name of the class. Can be accessed anywhere
+                    if combined with proper access modifier.
+                Downside:
+                    We can't override them. which means we will not be able to write dynamic
+                    code or will not able to use polymorphism.
+                When to use static methods:
+                    When i want to access method from anywhere and i don't want to create an object.
+                ======================================================================================
+                Constructors:
+
+                    Constructors are special type of methods which are used to give initial values to
+                    fields/instance/properties/attribute. They also help us build an object more easily from
+                    a class.
+                Rules:
+                    1) Constructors don't have any return type not even void.
+                    2) They must have same name as class name.
+                    3) Static is not allowed with constructors
+                Interview Questions:
+                    Can we have private constructors?
+                    Yes
+                    Can we use Static with a constructor?
+                    no
+                    Can we use final keyword with a constructor?
+                    no
+                    Can i use return keyword in a constructor?
+                    Yes
+                Why should we use Constructors?
+                    Cleaner code
+                    Secure code
+                "this" keyword
+                    1) We can access the instance variables with this keyword and there is a local variable also
+                    in teh same scope.
+                    2) We can call one constructor inside another one in the same class if we want to have the
+                    code from other class.
+                ==============================================================================
+                Inheritance:
+
+                    Its one of the main pillars of OOPs. Inheritance allows us to build a class using another class
+                    so that we don't repeat code. extends is the keyword that we use to inherit the fieLds
+                    and methods from another class.
+                Types of inheritance:
+
+                    1)Single 2) Hierarchical 3) Multi-level 4) Multiple(Not allowed in java for classes) 5) hybrid
+                Why Multiple inheritance is not support in java?
+                Its not allowed in Java because of Diamond problem.
+                Why should we use Inheritance?
+                    1) fast and less code.
+                Rules:
+
+                    1) private members(fields,methods) can't be used in child/derived/sub class.
+                    2) Constructors are not inherited automatically we need to use super keyword to call them.
+                    3) Inheritance is one way from parent to child
+                Disadvantages of Inheritance:
+                    Tightly coupling=> when one class becomes dependent on another class. if we change anything
+                    in the parent class it might introduce errors in all of the child classes.
+    File?
+     File is something that we use to store information.
+     For example:
+     1)txt files are used to store raw text.
+     2) pdf files are usually used to store books and articles.
+     3) xlsx files are usually used to store information in the form of a table.
+     4) .jpg .jpeg .png files are used to store images
+     5) .mp4 .mkv .mov are used to store videos.
+    Why we use files?
+        Its easier to move the information around because it just one single file.
+    Folders/Directories:
+        Its like a container for files. it can contain many different files.
+        We use it to organize the information.
+
+
+    File Handling:
+        File is process of creating/editing/accessing/deleting the
+        files on a computer with the
+        help of a programming language.
+
+
+    Steps to work with file
+        1) To locate the file usually we use the absolute paths for that
+        for example "C:/users/syntax/desktop/batch17/names.txt"
+        2) We need to have access and a piece of software that can edit/open that file.
+        3) To bring files from permanent storage into the RAM.
+    What is RAM?
+        Temporary storage its very Fast but very expensive and does not store data permanently
+        once we turn off the computer everything that we put in the RAM is gone.
+
+    What is HDD/SSD/NVME/Storage:
+        Its the permanent storage that we use to store things its cheap but slow.
+    Why should we learn about FileHandling?
+        1)So that we can store the data permanent.
+        2) We can store the sensitive data like userNames passwords etc inside the
+        files and keep them secure on our computers and don't push it with code on
+        github.
+        3) All the configuration related information like URLS and types of testing
+        will also be stored in the files.
+
+        Types of Errors in Java:
+            There are three main types of errors in java.
+            1)Syntax errors/Compile Time errors
+            2)Logical errors/Bugs
+            3)Runtime Errors/Exceptions
+
+        IDE-> integrated development environment. in our case its intellij
+        Syntax errors/Compile Time errors
+            Example
+            int age=10;
+            age int=10;
+        how to solve Syntax errors/Compile Time errors?
+            1) Most of the time your IDE is going to help you.
+            2) Compiler will also generate an error with line numbers and
+            explanations.
+            3) You can look for the rules of that language.
+        Logical Errors/bugs:
+            Logical occur when programs do not generate the expected outputs.
+        How to fix these types of errors?
+            we can use debugger to fix these types of errors.
+        Runtime errors/Exceptions:
+               Runtime errors or exceptions are unwanted events that disrupts the
+               normal flow of a program.
+
+        How to fix exceptions/Runtime errors?
+
+        Maps:
+            Maps are dataStructures which stores key value pairs.
+            There are many different types of maps in java but we will be discussing
+            1)HashMap 2) LinkedHashMap 3)TreeMap 4)HashTable. Maps are not part of
+            the collections framework. Map is the name of the interface and
+            HashMap, LinkedHashMap, TreeMap and HashTable are the clsses that implement
+            this interface.
+        Why We should learn about Maps?
+            All the other datastructures that we have learnt can only store
+            one value at a time and they are indexed based.
+            Maps allow us to store key value pairs which makes the a better choice
+            because we know what we are storing.
+        Syntax of Maps:
+            NameOfTheClass<DataTypeOfKey,DataTypeOfValue> variableName=new NameOfTheClass<>();
+            HashMap<String,Double> names= new HashMap<>();
+
+            Collection
+            Framework
+
+            Collection framework in java provides an
+            architecture to store and manipulate the group of
+            objects that represented as a single unit.
+            This framework has several useful classes which
+            have tons of useful functions which makes a
+            programmer task super easy
+            Java Collection Framework is a collection of
+            interfaces and classes which help in storing and
+            processing the data efficiently.
+            Collections are used almost in every programming
+            language. The most frequently used for the test
+            automation: List, Set, Map (map is not a collection
+            but mostly used for collections)
+            Collection
+            Framework
+
+
